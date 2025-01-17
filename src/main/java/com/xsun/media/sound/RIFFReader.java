@@ -22,7 +22,7 @@
  * CA 95054 USA or visit www.sun.com if you need additional information or
  * have any questions.
  */
-package com.sun.media.sound;
+package com.xsun.media.sound;
 
 import java.io.EOFException;
 import java.io.IOException;
@@ -79,12 +79,11 @@ public class RIFFReader extends InputStream {
 
         avail = this.ckSize;
 
-/*        if (getFormat().equals("RIFF") || getFormat().equals("LIST")) {
+        if (getFormat().equals("RIFF") || getFormat().equals("LIST")) {
             byte[] format = new byte[4];
             readFully(format);
             this.riff_type = new String(format, "ascii");
         }
-        */
     }
 
     public long getFilePointer() throws IOException {

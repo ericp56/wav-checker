@@ -3,7 +3,7 @@ package com.nextivr;
 import java.io.EOFException;
 import java.io.FileInputStream;
 
-import com.sun.media.sound.RIFFReader;
+import com.xsun.media.sound.RIFFReader;
 
 public class WaveFileChecker {
 
